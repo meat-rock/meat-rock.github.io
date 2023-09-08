@@ -1,10 +1,12 @@
 body {
 	font-family: Times New Roman;
-	background: url(https://www.spacejam.com/1996/img/bg_stars.gif);
+	background: url(https://web.archive.org/web/20091027013800/http://hk.geocities.com/smallsmallstone2000/back_y.gif);
     -webkit-animation: pulse 50s;
     -webkit-animation-fill-mode: forwards;
 	-webkit-animation-iteration-count: infinite;
-	-webkit-animation-direction: alternate;            
+	-webkit-animation-direction: alternate;
+	margin: 0;
+	padding: 0;
 }
 
 
@@ -47,10 +49,37 @@ body {
 	color: transparent;
 }
 
+#image-banner {
+	max-width: 60%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#image-banner img {
+	max-width: 13ch;
+}
+
 .clip-art {
 	background: white;
 	max-width: 7ch;
 	border: 1px solid lime;
+}
+
+.info-zone {
+	width: calc(100% - 40px);
+	background: #9093C2;
+
+	background: #F4F0DA;
+	border: 20px solid #9093C2;
+}
+
+.info-zone p {
+	max-width: none;
+	font-size: 10pt;
+	font-family: Verdana;
+	background: none;
+	border: none;
+	margin: 5px;
 }
 
 span.meat-rock {
@@ -67,6 +96,11 @@ span.diff {
 	color: red;
 	font-size: 80%;
 	letter-spacing: 0.1em;
+}
+
+span.attribution {
+	font-size: 80%;
+	font-weight: bold;
 }
 
 p.help {
@@ -105,4 +139,8 @@ p {
 
 p u {
 	color: deeppink;
+}
+
+blockquote p {
+	font-style: italic;
 }
