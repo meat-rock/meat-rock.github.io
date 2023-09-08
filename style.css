@@ -1,0 +1,108 @@
+body {
+	font-family: Times New Roman;
+	background: url(https://www.spacejam.com/1996/img/bg_stars.gif);
+    -webkit-animation: pulse 50s;
+    -webkit-animation-fill-mode: forwards;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-direction: alternate;            
+}
+
+
+@keyframes pulse {
+	from { background-size: 7%; }
+	to { background-size: 6%; }
+}
+
+
+#home-button {
+	position: fixed;
+	top: 5;
+	left: 5;
+	border-radius: 5px;
+	border: 1px solid grey;
+	text-decoration: none;
+	font-weight: bold;
+	color: black;
+	font-size: 14pt;
+	padding: 5px 15px;
+	background: linear-gradient(180deg, rgba(251,151,255,1) 0%, rgba(255,255,255,1) 100%);
+}
+
+#home-button:after {
+	content: none;
+}
+
+#title-box {
+	background: blue;
+	width: 60%;
+	margin: 0 auto;
+}
+
+#big-title {
+	text-align: center;
+	font-size: 60pt;
+	background-image: linear-gradient(to right,
+		red 0, orange 16%, yellow 32%, pink 48%, lightblue 64%, lime 80%);
+	-webkit-background-clip: text;
+	color: transparent;
+}
+
+.clip-art {
+	background: white;
+	max-width: 7ch;
+	border: 1px solid lime;
+}
+
+span.meat-rock {
+	font-size: 80%;
+	font-family: cursive;
+	font-weight: bold;
+	color: firebrick;
+	background: mediumaquamarine;
+}
+
+span.diff {
+	font-family: sans-serif;
+	font-weight: bold;
+	color: red;
+	font-size: 80%;
+	letter-spacing: 0.1em;
+}
+
+p.help {
+	background: white;
+	border: none;
+	max-width: 80%;
+	font-size: 16pt;
+}
+
+a, a:visited {
+	color: blue;
+	font-weight: bold;
+}
+
+a:after, a:visited:after {
+	content: '';
+	background: url(https://i.imgur.com/RscPPaC.jpg);
+	  background-size: auto;
+	display: inline-block;
+	width: 30px;
+	height: 15px;
+	background-size: 100%;
+}
+
+p {
+	max-width: 50%;
+	margin: 1ch auto;
+	font-size: 18pt;
+	background: grey;
+	border-top: 2px solid lightgrey;
+	border-left: 2px solid lightgrey;
+	border-right: 4px solid darkslategrey;
+	border-bottom: 4px solid darkslategrey;
+	padding: 10px;
+}
+
+p u {
+	color: deeppink;
+}
